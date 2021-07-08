@@ -1,5 +1,3 @@
-<?php?>
-
 <!DOCTYPE html>
 <head>
     <title>Movilidad UTP</title>
