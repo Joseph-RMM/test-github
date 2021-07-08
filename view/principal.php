@@ -13,7 +13,13 @@
             </tr>
         </thead>
         <tbody>
-            <?php  echo '<h2>Si funciona php</h2>' ?>
+            <?php  foreach($data["Convocatorias"] as $dato){
+                echo "<tr>";
+                echo "<td>".$dato["Nombre"]."</td>";
+                echo "<td>".$dato["DescripcionCorta"]."</td>";
+                echo "</tr>";
+
+            } ?>
         </tbody>
         
     </table>
